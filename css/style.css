@@ -1225,6 +1225,14 @@ body {
   }
 }
 
+@media (max-width: 61.99875em) and (prefers-color-scheme: dark) {
+  .icon-menu span,
+  .icon-menu::before,
+  .icon-menu::after {
+    background-color: #fff;
+  }
+}
+
 @media (max-width: 47.99875em) {
   .main-block__img {
     position: relative;
@@ -1264,6 +1272,20 @@ body {
   .portfolio-block__work {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 29.99875em) {
+  .tools-use__slide.swiper-slide-next,
+  .tools-use__slide.swiper-slide-prev {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
+
+  .tools-use__slide.swiper-slide-next .tools-use__body,
+  .tools-use__slide.swiper-slide-prev .tools-use__body {
+    background-color: rgb(255, 255, 255);
   }
 }
 
