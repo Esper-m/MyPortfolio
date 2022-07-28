@@ -210,9 +210,9 @@ body {
 
 .page {
   background: #845EC2;
-  background: -webkit-gradient(linear, left top, right top, from(#845EC2), color-stop(#D65DB1), color-stop(#FF6F91), color-stop(#FF9671), to(#ffc75f));
-  background: -o-linear-gradient(left, #845EC2, #D65DB1, #FF6F91, #FF9671, #ffc75f);
-  background: linear-gradient(90deg, #845EC2, #D65DB1, #FF6F91, #FF9671, #ffc75f);
+  background: -webkit-gradient(linear, left top, right top, from(#845EC2), color-stop(#D65DB1), color-stop(#FF6F91), color-stop(#FF9671), to(#ffc75f)) !important;
+  background: -o-linear-gradient(left, #845EC2, #D65DB1, #FF6F91, #FF9671, #ffc75f) !important;
+  background: linear-gradient(90deg, #845EC2, #D65DB1, #FF6F91, #FF9671, #ffc75f) !important;
   background-size: 150% 150%;
   -webkit-animation: gradient 10s ease infinite;
           animation: gradient 10s ease infinite;
